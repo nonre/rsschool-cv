@@ -36,3 +36,16 @@ function bubbleSort(arr) {
 * Landings:
     * [Restaurant](https://nonre.github.io/hungry-people/)
     * [Cryptocurrency company](https://nonre.github.io/crappo/)
+
+## Education and cources
+
+* **School 21:** 
+    + learned programming fundamentals using C language, team work
+* **HTML Academy:** HTML/CSS basics
+* **https://learn.javascript.ru/**
+* **Udemy:** 
+    + React + Redux - Professional development
+
+## Languages
+- English - Upper Intermediate (B2)
+- Russian - Native 
