@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>👋</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">👋, <span>my name is Alisa</span></h1>
+    <p class="header__description">I'm junior frontend developer</p>
+    <div class="header__contacts">
+        <a href="https://t.me/eutow"><img src="img/telegram.svg" alt="telegram">Telegram</a>
+        <a href="https://github.com/nonre"><img src="img/github-icon.svg" alt="github">Github</a>
+    </div>
+  </header>
+  <section class="section about">
+    <h2 class="section__title">About me</h2>
+      <p>
+        Several years ago I admitted to the programming school. I learned C language and wrote some projects on it. Afterwards I got interested in frontend development. I learned HTML/CSS, JS basics by my own and have some work experience. My goal is to get nessessary skills to get a job in leading IT-company.
+      </p>
+  </section>
+  <section class="section skills ">
+      <h2 class="section__title">Skills</h2>
+      <ul> 
+          <li>HTML5, CSS3</li>
+          <li>Less / Sass</li>
+          <li>BEM</li>
+          <li>Gulp</li>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Git</li>
+          <li>Figma, Photoshop</li>
+          <li>C, Python (basics)</li>
+      </ul>         
+  </section>
+  <section class="section examples">
+    <h2 class="section__title">Code example</h2>
+    <pre class="examples__code code">
+      <code>
+        function bubbleSort(arr) {
+          for (let j = 0; j < arr.length - 1; j++) {
+              for (let  i = 0; i < arr.length - 1 - j; i++) {
+                  if (arr[i] > arr[i + 1]) {
+                      let j = arr[i];
+                      arr[i] = arr[i + 1];
+                      arr[i + 1] = j;
+                  }
+              }
+          }
+          return arr;
+        }
+      </code>
+    </pre>       
+  </section>
+  <section class="section works">
+      <h2 class="section__title">Work experience</h2>
+      <div class="works__container">
+          <article class="works__item">
+              <div class="works__preview">
+                  <img  class="works__img" src="img/crappo.jpg" alt="#">
+              </div>
+              <h3 class="works__title"><a href="https://nonre.github.io/crappo/">Crappo</a></h3>
+              <p>Landing page for the cryptocurrency company</p>
+          </article>
+          <article class="works__item">
+              <img  class="works__img" src="img/hungry-people.jpg" alt="#">
+              <h3 class="works__title"><a href="https://nonre.github.io/hungry-people/">Hungry people</a></h3>
+              <p>Landing page for the restaurant</p>
+          </article>
+      </div>
+  </section>
+  <section class="section education">
+    <h2 class="section__title">Education and courses</h2>
+    <ul>
+      <li>School 21: learn programming fundamentals using C language, team work</li>
+      <li>HTML Academy: HTML/CSS basics</li>
+      <li>https://learn.javascript.ru/</li>
+      <li>Udemy: React + Redux - Professional development</li>
+    </ul>
+  </section>
+  <section class="section languages">
+    <h2 class="section__title">Languages</h2>
+    <ul>
+      <li>English - Upper Intermediate (B2)</li>
+      <li>Russian - Native</li>
+    </ul>
+  </section> 
+</body>
+</html>
