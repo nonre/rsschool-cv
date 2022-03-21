@@ -16,3 +16,23 @@ Several years ago I admitted to the programming school. I learned C language and
 * Git
 * Figma, Photoshop
 * C, Python (basics)
+
+## Code Example
+```
+function bubbleSort(arr) {
+    for (let j = 0; j < arr.length - 1; j++) {
+        for (let i = 0; i < arr.length - 1 - j; i++) {
+            if (arr[i] > arr[i + 1]) {
+                let j = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = j;
+            }
+        }
+    }
+    return arr;
+}
+```
+## Works
+* Landings:
+    * [Restaurant](https://nonre.github.io/hungry-people/)
+    * [Cryptocurrency company](https://nonre.github.io/crappo/)
